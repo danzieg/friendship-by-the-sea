@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>
+{{ page.title }}
+</title>
+<!--Custom style sheets-->
+        <link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl}}">
+        {% include nav.html %}
+</head>
+
+<body>
+<div class="mybackground">
+{{ content }}
+</div>
+
+{% include footer.html %}
+{% include scripts.html %}
+
+</body>
+
+</html>
