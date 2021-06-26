@@ -2,6 +2,3 @@
 layout: default
 title: Home
 ---
-<h2>
-Test
-</h2>
