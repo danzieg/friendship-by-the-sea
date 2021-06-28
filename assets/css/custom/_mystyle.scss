@@ -1,11 +1,6 @@
-.container {
-  margin: 10px auto;
-  max-width: 600px;
-  text-align: center;
-}
 h1 {
   margin: 30px 0;
-  font-size: 4em;
+  font-size: 16em;
   line-height: 1;
   letter-spacing: -1px;
 }
@@ -25,3 +20,13 @@ nav li {
       background: rgb(54, 54, 54);
       color: white;
     }
+
+      .mybtn {
+        background-color: rgb(54, 54, 54);
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        border: solid rgb(0, 0, 0) 3px;
+        font-weight: bold;
+        border-radius: 20px;
+       padding: 8px;
+        }

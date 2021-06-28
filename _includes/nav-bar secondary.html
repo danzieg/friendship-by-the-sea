@@ -1,23 +1,15 @@
-<nav aria-label="Secondary">
-      <div class="row">
-      <div class="col-md-6">
-       
-      </div>
-      <div class="col-md-3">
-        <button type="button" data-toggle="collapse" data-target="#selector" aria-controls="selector" aria-expanded="false" aria-label="Select">
-          <span><i class="fas fa-bookmark fa-lg" aria-hidden="false"></i></span>
-        </button>
-      <div class="collapse" id="selector">
-      {% include global/select.html %}
-      </div>
-      </div>
-      <div class="col-md-3">
-        <button type="button" data-toggle="collapse" data-target="#meta-info" aria-controls="meta-info" aria-expanded="false" aria-label="Page information">
-          <span><i class="fa fa-info-circle fa-lg"  aria-hidden="false"></i></span>
-        </button>
-      <div class="blog-post-meta collapse" id="meta-info">
-      {% include global/meta.html %}
-      </div>
-      </div>
-      </div>
-      </nav>
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <a href="{{ '/about/index.html' | prepend: site.baseurl }}" class="navbar-brand">
+    </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="secondary">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarMenu">
+ <ul class="nav navbar-nav ml-auto navbar-default" role="menubar">
+<li><a class="nav-item" href="aims.html" class="nav-link">Aim's</a></li>
+<li><a href="FAQ's.html">FAQ's</a></li>
+</ul>
+</div>
+  </nav>
+</header>
