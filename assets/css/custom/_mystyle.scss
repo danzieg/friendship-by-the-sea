@@ -1,6 +1,7 @@
 h1 {
   margin: 30px 0;
   font-size: 16em;
+  font-family: 'Noto Sans JP', sans-serif;
   line-height: 1;
   letter-spacing: -1px;
 }
@@ -12,25 +13,28 @@ nav li {
   }
 
   .bg-my-nav{
-background:#22A9FD;
+background:#000D14;
   }
 
   .bg-second-nav{
-    background: rgb(133, 23, 236);
+    background: #000D14;
   }
   nav a {
-      color: rgb(0, 0, 0);
+      color: #FFFFEB;
+    font-family: 'Noto Sans JP', sans-serif;
   }
 
     #footer-content {
-      background: rgb(54, 54, 54);
-      color: white;
+      background: #000D14;
+      color: #FFFFEB;
+      font-family: 'Noto Sans JP', sans-serif;
     }
 
       .mybtn {
-        background-color: rgb(54, 54, 54);
+        background-color: #22A9FD;
         font-size: 20px;
-        color: rgb(255, 255, 255);
+        color: #FFFFEB;
+        font-family: 'Noto Sans JP', sans-serif;
         border: solid rgb(0, 0, 0) 3px;
         font-weight: bold;
         border-radius: 20px;
