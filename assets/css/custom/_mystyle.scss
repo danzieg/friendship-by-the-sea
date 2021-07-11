@@ -14,10 +14,12 @@ nav li {
 
   .bg-my-nav{
 background:#000D14;
+color: #FFFFEB;
   }
 
   .bg-second-nav{
     background: #000D14;
+    color: #FFFFEB;
   }
   nav a {
       color: #FFFFEB;
@@ -31,7 +33,7 @@ background:#000D14;
     }
 
       .mybtn {
-        background-color: #22A9FD;
+        background-color: #0296F2;
         font-size: 20px;
         color: #FFFFEB;
         font-family: 'Noto Sans JP', sans-serif;
@@ -41,8 +43,25 @@ background:#000D14;
        padding: 8px;
         }
 
-      ul {
-          list-style-type: none;
-          margin: 0;
-          padding: 0;
+        .site-footer{
+          position: relative;
+          width: 150%;
+          overflow-y: auto;
+          left: 0;
+          bottom: 0;
+        }
+
+        .review-container{
+          margin: auto;
+          width: 50%;
+          padding: 10px;
+          font-size: 20px;
+        }
+
+        .bg-my-sidenav{
+          background: #000D14;
+          position: fixed;
+          width: 150%;
+          top: 0;
+          bottom: 0;
         }
