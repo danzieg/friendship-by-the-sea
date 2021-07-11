@@ -12,14 +12,25 @@
 
 <body>
 <header>
+<div class="row"
+<div class="col">
+<a href="#main-content">Skip to main content</a>
+</div>
+<div class="col">
+<a href="#footer-content">Skip to footer</a>
+</div>
+</div>
         {% include nav.html %}
         </header>
         
-<div class="mybackground">
+<main id="main-content">
 {{ content }}
-</div>
+</main>
 
+    <footer class="site-footer" id="footer-content">
 {% include footer.html %}
+</footer>
+
 {% include scripts.html %}
 
 </body>
