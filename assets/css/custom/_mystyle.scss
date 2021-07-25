@@ -1,9 +1,17 @@
 h1 {
-  margin: 30px 0;
+  margin-left: 50px;
   font-size: 16em;
   font-family: 'Noto Sans JP', sans-serif;
   line-height: 1;
   letter-spacing: -1px;
+}
+
+h3 {
+    margin-left: 50px;
+    font-size: 16em;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 1;
+    letter-spacing: -1px;
 }
 
 nav li {
@@ -20,11 +28,32 @@ color: #FFFFEB;
   .bg-second-nav{
     background: #000D14;
     color: #FFFFEB;
+	padding-bottom: 0%;
   }
-  nav a {
-      color: #FFFFEB;
+  
+  .bg-review-nav{
+  background: #000D14;
+  color: #FFFFEB;
+  padding-top: 0%;
+  }
+
+.bg-activities-nav {
+    background: #000D14;
+    color: #FFFFEB;
+    padding-bottom: 0%;
+}
+.review-container {
+    margin-left: 50px;
+    font-size: 20px;
     font-family: 'Noto Sans JP', sans-serif;
-  }
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+nav a {
+    color: #FFFFEB;
+    font-family: 'Noto Sans JP', sans-serif;
+}
 
     #footer-content {
       background: #000D14;
@@ -41,6 +70,8 @@ color: #FFFFEB;
         font-weight: bold;
         border-radius: 20px;
        padding: 8px;
+       margin-bottom: 5px;
+       margin-left: 20px
         }
 
         .site-footer{
@@ -49,19 +80,6 @@ color: #FFFFEB;
           overflow-y: auto;
           left: 0;
           bottom: 0;
+          padding-top: 5px;
         }
-
-        .review-container{
-          margin: auto;
-          width: 50%;
-          padding: 10px;
-          font-size: 20px;
-        }
-
-        .bg-my-sidenav{
-          background: #000D14;
-          position: fixed;
-          width: 150%;
-          top: 0;
-          bottom: 0;
-        }
+     
