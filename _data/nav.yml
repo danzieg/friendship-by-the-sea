@@ -1,0 +1,10 @@
+- name: About
+  link: /about/about.html
+- name: Activities
+  link: /activities/activities.html
+- name: Review
+  link: /review/review.html
+- name: Useful Information
+  link: /useful information.html
+- name: Contact Us
+  link:	contact-us.html

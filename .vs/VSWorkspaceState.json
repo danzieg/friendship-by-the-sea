@@ -1,8 +1,13 @@
 {
   "ExpandedNodes": [
     "",
+    "\\about",
+    "\\activities",
+    "\\activities\\around-the-country",
+    "\\review",
+    "\\_data",
     "\\_includes"
   ],
-  "SelectedNode": "\\_includes\\nav-bar-activities.html",
+  "SelectedNode": "\\_data\\nav.yml",
   "PreviewInSolutionExplorer": false
 }

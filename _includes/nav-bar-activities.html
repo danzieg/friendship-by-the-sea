@@ -4,9 +4,9 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarMenu">
         <ul class="nav navbar-nav ml-auto navbar-default" role="menubar">
-            <li><a class="nav-item" href="{{ '/activities/around-the-country/around-the-country.html' | prepend: site.baseurl }}">Around the Country</a></li>
-            <li><a href="{{ '/activities/events/events.html' | prepend: site.baseurl }}">Events</a></li>
-            <li><a href="{{ '/activities/local/local.html' | prepend: site.baseurl }}">Local</a></li>
+            {% for item in site.data.nav-bar-activities %}
+            <li><a class="nav-item" href="{{ item.link | prepend: site.baseurl }}">{{ item.name }}</a></li>
+            {% endfor %}
         </ul>
     </div>
 </nav>

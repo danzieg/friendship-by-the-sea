@@ -1,6 +1,6 @@
-name: Around the Country
-link: /activities/around-the-country/around-the-country.html
-name: Events
-link: /activities/events/events.html
-name: Local
-link: /activities/local/local.html
+- name: Around the Country
+  link: /activities/around-the-country/around-the-country.html
+- name: Events
+  link: /activities/events/events.html
+- name: Local
+  link: /activities/local/local.html
