@@ -1,19 +1,13 @@
 ---
-layout: default
-title: Review
+layout: reviews
+title: Places in Sussex
 ---
 
-{% include nav-bar-review.html %}
+{% for post in site.tags.places-in-sussex %}
+<h2>{{ forloop.index }}. {{ post.title }}</h2>
 
-<div class="review-container">
+<p>{{ post.excerpt }}</p>
 
-<h1>Places in Sussex</h1>
+<a href="{{ post.url | prepend: site.baseurl }}">Find out more about {{ post.title }}</a>
 
-<h2>Alcampo Lounge</h2>
-<p>Alcampo Lounge is a cafe/bar open all-day 
-every day you can come for a coffee, a drink, 
-or something to eat in a relaxed comfortable
- environment.</p>
-<a href="{{ '/review/places-in-sussex/alcampo-lounge.html' |prepend: site.baseurl }}" class="mybtn">Alcampo Lounge</a>
-
-</div>
+{% endfor %}

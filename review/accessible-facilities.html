@@ -1,7 +1,14 @@
 ---
-layout: default
-title: About
+layout: reviews
+title: Accessible facilities
 ---
 
-Accessable beaches
-Accessable toilets
+
+{% for post in site.tags.accessible-facilities %}
+<h2>{{ forloop.index }}. {{ post.title }}</h2>
+
+<p>{{ post.excerpt }}</p>
+
+<a href="{{ post.url | prepend: site.baseurl }}">Find out more about {{ post.title }}</a>
+
+{% endfor %}

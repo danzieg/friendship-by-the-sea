@@ -1,0 +1,14 @@
+---
+layout: activities
+title: Around the country
+---
+
+
+{% for post in site.tags.around-the-country %}
+<h2>{{ forloop.index }}. {{ post.title }}</h2>
+
+<p>{{ post.excerpt }}</p>
+
+<a href="{{ post.url | prepend: site.baseurl }}">Find out more about {{ post.title }}</a>
+
+{% endfor %}

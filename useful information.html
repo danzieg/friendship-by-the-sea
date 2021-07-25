@@ -1,0 +1,20 @@
+---
+layout: default
+title: Useful information
+---
+
+<h1>{{ page.title }}</h1>
+
+You can find a list of useful information on anything disability related.
+
+<ul>
+{% for item in site.data.useful %}
+<a href="{{ item.link }}">{{ item.name }}</a>
+  <button type="button" class="mybtn" data-toggle="collapse" data-target="#meta-info" aria-controls="meta-info" aria-expanded="false" aria-label="More information">
+    <span><i class="fa fa-info-circle fa-lg"  aria-hidden="false"></i></span>
+  </button>
+<div class="blog-post-meta collapse" id="meta-info">
+{{ item.description }}
+</div>
+{% endfor %}
+</ul>

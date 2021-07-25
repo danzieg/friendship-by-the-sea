@@ -1,10 +1,17 @@
 ---
-layout: default
+layout: activities
 title: Activities
 ---
 
-{% include nav-bar-activities.html %}
+<h1>All activities</h1>
 
-<h1>test</h1>
-<p>Rocket Artists
-Surfability</p>
+<p>Here you can find all our recommended activities.</p>
+
+{% for post in site.categories.activities %}
+<h2>{{ forloop.index }}. {{ post.title }}</h2>
+
+<p>{{ post.excerpt }}</p>
+
+<a href="{{ post.url | prepend: site.baseurl }}">Find out more about {{ post.title }}</a>
+
+{% endfor %}

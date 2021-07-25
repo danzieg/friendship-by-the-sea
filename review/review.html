@@ -1,11 +1,17 @@
 ---
-layout: default
-title: Review
+layout: reviews
+title: Reviews
 ---
-{% include nav-bar-review.html %}
 
-      <h1>Reviews</h1>
+<h1>All reviews</h1>
 
-<p>In this section you can find out about acessabile places in Sussex. You can also take a look at accessable holdays you could go on. <br>
-Do you know where there are accessabile facilities in Sussex? In this section you can find out where they are in Sussex. </p>
-      
+<p>Read our reviews of accessible facilities, holidays, and places in Sussex.</p>
+
+{% for post in site.categories.review %}
+<h2>{{ forloop.index }}. {{ post.title }}</h2>
+
+<p>{{ post.excerpt }}</p>
+
+<a href="{{ post.url | prepend: site.baseurl }}">Find out more about {{ post.title }}</a>
+
+{% endfor %}
