@@ -12,4 +12,6 @@ In Brighton & Hove there are 57 toilets located but out of all of them there is 
 
 <!-- excerpt-end -->
 
-Here is a list of accessible toilets
+Here is a list of accessible toilets.
+{% assign dataFile = site.data.facilities %}
+{% include tabulator2.html %}
