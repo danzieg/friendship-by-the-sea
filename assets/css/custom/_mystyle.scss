@@ -64,9 +64,9 @@ nav a {
       .mybtn {
         background-color: #0296F2;
         font-size: 20px;
-        color: #FFFFEB;
+        color: #000D14;
         font-family: 'Noto Sans JP', sans-serif;
-        border: solid rgb(0, 0, 0) 3px;
+        border: solid #000D14 3px;
         font-weight: bold;
         border-radius: 20px;
        padding: 8px;
@@ -81,5 +81,32 @@ nav a {
           left: 0;
           bottom: 0;
           padding-top: 5px;
+        }
+
+        .mybtnpreviousbutton {
+          background-color: #0296F2;
+          font-size: 20px;
+          color: #000D14;
+          font-family: 'Noto Sans JP', sans-serif;
+        border: solid #000D14 3px;
+        font-weight: bold;
+        border-radius: 20px;
+       padding: 8px;
+       margin-bottom: 5px;
+       margin-left: 20px
+        }
+
+        .mybtnnextbutton {
+          background-color: #0296F2;
+          font-size: 20px;
+          color: #000D14;
+          font-family: 'Noto Sans JP', sans-serif;
+        border: solid #000D14 3px;
+        font-weight: bold;
+        border-radius: 20px;
+       padding: 8px;
+       margin-top: 10px;
+       margin-bottom: 5px;
+       margin-left: 20px
         }
      
