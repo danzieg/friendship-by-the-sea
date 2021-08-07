@@ -1,6 +1,6 @@
 ---
 layout: reviews-post
-title: Accessible Toilets in Brightona & Hove
+title: Accessible Toilets in Brighton & Hove
 tag: accessible-facilities
 reviewDate: 2021-06-21
 location: Brighton & Hove
