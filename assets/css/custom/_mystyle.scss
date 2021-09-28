@@ -4,6 +4,7 @@ h1 {
   font-family: 'Noto Sans JP', sans-serif;
   line-height: 1;
   letter-spacing: -1px;
+  text-align: center;
 }
 
 h3 {
@@ -12,6 +13,7 @@ h3 {
     font-family: 'Noto Sans JP', sans-serif;
     line-height: 1;
     letter-spacing: -1px;
+    padding-top: 10px;
 }
 
 nav li {
@@ -70,8 +72,6 @@ nav a {
         font-weight: bold;
         border-radius: 20px;
        padding: 8px;
-       margin-bottom: 5px;
-       margin-left: 20px
         }
 
         .site-footer{
@@ -80,7 +80,7 @@ nav a {
           overflow-y: auto;
           left: 0;
           bottom: 0;
-          padding-top: 5px;
+          padding-top: 10px;
         }
 
         .mybtnpreviousbutton {
